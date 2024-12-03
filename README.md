@@ -22,9 +22,9 @@ Create a simple web application using the **Model-View-Controller (MVC) pattern*
    Implement and test the PHP file, **ordersHome.php** that displays all the orders in a table format. Each row should display the information for all of the fields in the purchase orders table. This page will also display a form for adding new orders to the database. Use *Bootstrap* to format the table, form, and page.
    
 4. **Controller**:  
-   Implement and test the PHP file, **orderController.php** that functions as the controller for the application and is the target for all HTTP requests.  Access to this page requires user authentication. User should not be able to access the page without providing a valid user/password combination. The following request url should display the page with the dog information:
+   Implement and test the PHP file, **orderController.php** that functions as the controller for the application and is the target for all HTTP requests.  Access to the orders home page requires user authentication. User should not be able to access the page without providing a valid user/password combination. The following request url for the orders home page: (**Note:** If not authenticated, should redirect to login page)
    ```
-   http://localhost/exam2/orderController.php?action=list
+   orderController.php?action=home
    ```  
 ### Login Page ###
 <img src="login.png" alt="login form">
