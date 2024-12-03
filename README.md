@@ -24,9 +24,13 @@ Create a simple web application using the **Model-View-Controller (MVC) pattern*
 4. **Controller**:  
    Implement and test the PHP file, **orderController.php** that functions as the controller for the application and is the target for all HTTP requests.  Access to this page requires user authentication. User should not be able to access the page without providing a valid user/password combination. The following request url should display the page with the dog information:
    ```
-   http://localhost/exam2/dogController.php?action=list
+   http://localhost/exam2/orderController.php?action=list
    ```  
-<img src="dogs.png" alt="dogs">
+### Login Page ###
+<img src="login.png" alt="login form">
+
+### Home Page ###
+<img src="ordersHome.png" alt="orders home">
 
 ---
 
